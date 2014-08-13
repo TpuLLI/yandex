@@ -44,11 +44,8 @@
 .b-link__logo {
   height: 50px;
   width: 50px;
-  background: url("img/logo_sprite.png");
+  background: url("../../img/logo_sprite.png");
   background-position: 0 0;
-}
-.b-link_adv {
-  backgroubg-image: url("../img/adv.jpeg");
 }
 .b-link_service {
   color: #000;
@@ -116,7 +113,7 @@
   margin-left: 250px;
 }
 .b-service__metro {
-  background-image: url("../img/map.webp");
+  background-image: url("../../img/map.webp");
 }
 
 
