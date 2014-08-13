@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css" />
+	<script type="text/javascript" src="components/jquery/jquery.js"></script>
+	<script type="text/javascript">
+		var baseMixin = {
+			create: function(el){
+				this.el = el
+				if(this.init) this.init()
+			},
+			on: function () {
+				return this.el.on.apply(this.el, arguments);
+			},
+			off: function () {
+				return this.el.off.apply(this.el, arguments);
+			},
+			trigger: function () {
+				return this.el.trigger.apply(this.el, arguments);
+			},
+			once: function () {
+				return this.el.once.apply(this.el, arguments);
+			},
+			find: function(){
+				return this.el.find.apply(this.el, arguments);
+			}
+		}
+
+		var app = $.extend(baseMixin, {
+			init: function () {
+				this.el = $(document);
+			}
+		});
+
+		app.tabs = $.extend(baseMixin, {
+			init: function(){
+
+			}
+		});
+
+		app.menu =  $.extend(baseMixin, {
+			init: function () {
+				this.el = $('.menu');
+				this.item  = this.find('.menu__item');
+
+				this.item.on({
+					click: $.proxy(this.click, this),
+					mouseenter: $.proxy(this.mouseenter, this),
+					customEvent: $.proxy(this.customEvent, this)
+				});
+			},
+			click: function(ev){
+				var el = $(ev.currentTarget);
+				app.tabs.trigger('fuck')
+			},
+			mouseenter: function(){
+
+			},
+			customEvent: function(){
+
+			}
+		});
+
+		$(function () {
+			app.init();
+		});
+	</script>
+</head>
+<body>
+<div class="container">
+	hello guys
+</div>
+</body>
+</html>

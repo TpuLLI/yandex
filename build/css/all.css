@@ -1,3 +1,9 @@
+.b-adv {
+  margin-bottom: 10px;
+}
+
+
+
 .b-float {
   float: left;
 }
@@ -44,6 +50,9 @@
 .b-link_adv {
   backgroubg-image: url("../img/adv.jpeg");
 }
+.b-link_service {
+  color: #000;
+}
 
 .b-logo {
   margin-right: 10px;
@@ -88,6 +97,26 @@
   border: 1px solid #808080;
   background-color: #fff;
   border-spacing: 2px;
+}
+
+.b-service {
+  oveflow: hidden;
+}
+.b-service__map {
+  margin-left: 30px;
+}
+.b-service__header_number {
+  height: 30px;
+  widht: 30px;
+}
+.b-service__weather {
+  margin-left: 250px;
+}
+.b-service__route {
+  margin-left: 250px;
+}
+.b-service__metro {
+  background-image: url("../img/map.webp");
 }
 
 

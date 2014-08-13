@@ -1,0 +1,13 @@
+{
+  "name": "LML",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "jquery": "1.10.2",
+    "jquery-mockjax": "1.5.3",
+    "bootstrap": "*"
+  }
+}
