@@ -1,10 +1,20 @@
 .b-map
+  &:hover &__tools
+    display: inline-block
+
 
   &_position
     margin-left: 30px
 
 
-  &__metro
+  &__image
     width: 198px
     height: 57px
-    background-image: url(../../img/map.webp)
+
+  &__tools
+    display: none
+    background: url(../../img/tools.svg)
+    width: 15px
+    height: 15px
+    vertical-align: middle
+
