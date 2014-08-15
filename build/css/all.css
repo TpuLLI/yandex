@@ -1,199 +1,3 @@
-.b-adv {
-  margin-bottom: 10px;
-}
-
-
-
-.b-float {
-  float: left;
-}
-.b-float_right {
-  float: right;
-}
-
-.b-icon_medium {
-  width: 40px;
-  height: 40px;
-}
-.b-icon_small {
-  width: 20px;
-  height: 20px;
-}
-.b-icon_metro {
-  background: url("../../metro.jpg");
-}
-
-.b-inline {
-  display: inline-block;
-}
-.b-inline_header {
-  vertical-align: middle;
-  line-height: 25px;
-}
-
-.b-language {
-  margin-right: 30px;
-}
-
-.b-line-height {
-  height: 50px;
-  line-height: 50px;
-}
-
-.b-link {
-  text-decoration: none;
-  color: #0d44a0;
-}
-.b-link:hover {
-  color: #f00;
-}
-.b-link_carrot {
-  color: #ee7b00;
-}
-.b-link_big {
-  margin-left: 5px;
-  font-size: 16px;
-}
-.b-link_example {
-  color: #669;
-}
-.b-link__logo {
-  height: 30px;
-  width: 30px;
-  background: url("../../img/logo_sprite.png") no-repeat;
-  background-position: 0 0;
-}
-.b-link__logo:hover {
-  background-position: 0 -33px;
-}
-.b-link_number {
-  color: #000;
-}
-
-.b-logo {
-  margin-right: 10px;
-}
-
-.b-map:hover .b-map__tools {
-  display: inline-block;
-}
-.b-map_position {
-  margin-left: 30px;
-}
-.b-map__image {
-  width: 198px;
-  height: 57px;
-}
-.b-map__tools {
-  display: none;
-  background: url("../../img/tools.svg");
-  width: 15px;
-  height: 15px;
-  vertical-align: middle;
-}
-
-.b-news {
-  overflow: hidden;
-  width: 500px;
-}
-.b-news__header {
-  margin-bottom: 5px;
-}
-.b-news__item {
-  margin-bottom: 5px;
-}
-
-.b-page__line {
-  margin: 0 auto;
-  width: 1040px;
-}
-.b-page__line_bar {
-  width: 93%;
-  overflow: hidden;
-}
-
-.b-route_position {
-  margin-left: 150px;
-}
-
-.b-search {
-  height: 70px;
-  width: 830px;
-  overflow: hidden;
-  background-color: #ffa500;
-}
-.b-search__input {
-  margin-right: 10px;
-  margin-left: 5px;
-  width: 700px;
-  height: 20px;
-  border: 1px solid #000;
-  padding: 7px;
-  font-size: 16px;
-  border-color: #808080;
-}
-.b-search__button {
-  width: 72px;
-  height: 36px;
-  border: 1px solid #808080;
-  background-color: #fff;
-  border-spacing: 2px;
-}
-
-.b-service__map {
-  margin-left: 30px;
-}
-.b-service__weather {
-  margin-left: 150px;
-}
-.b-service__route {
-  margin-left: 150px;
-}
-.b-service__tv {
-  margin-left: 150px;
-}
-
-
-.b-theme {
-  margin-right: 30px;
-}
-
-.b-tools {
-  margin-right: 30px;
-}
-.b-tools__link {
-  height: 50px;
-  line-height: 60px;
-}
-
-.b-tv {
-  overflow: hidden;
-}
-.b-tv_position {
-  margin-left: 150px;
-}
-
-.b-username {
-  margin-left: 15px;
-}
-.b-username__first-name {
-  color: #f00;
-}
-
-.b-weather_position {
-  margin-left: 150px;
-}
-.b-weather__img {
-  height: 30px;
-  widht: 30px;
-}
-
-.b-yandex__link {
-  margin-bottom: 5px;
-  padding-bottom: 5px;
-  background-color: #fff;
-}
-
 [hidden] {
   display: none;
 }
@@ -465,3 +269,247 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.b-adv {
+  width: 800px;
+  margin-left: 25px;
+}
+.b-adv__img {
+  margin-bottom: 10px;
+}
+
+
+
+.b-float {
+  float: left;
+}
+.b-float_right {
+  float: right;
+}
+
+.b-header_smal {
+  font-size: 12px;
+}
+.b-header_meddium {
+  font-size: 16px;
+}
+.b-header_big {
+  font-size: 20px;
+}
+.b-header_border {
+  border-top: 3px solid #0d44a0;
+}
+.b-header__item {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.b-icon_medium {
+  width: 40px;
+  height: 40px;
+}
+.b-icon_small {
+  width: 20px;
+  height: 20px;
+}
+.b-icon_metro {
+  background: url("../../metro.jpg");
+}
+
+.b-inline {
+  display: inline-block;
+}
+.b-inline_header {
+  vertical-align: middle;
+  line-height: 25px;
+}
+.b-inline_top {
+  vertical-align: top;
+}
+
+.b-language {
+  margin-right: 30px;
+}
+
+.b-line-height {
+  height: 50px;
+  line-height: 50px;
+}
+
+.b-link {
+  text-decoration: none;
+  color: #0d44a0;
+}
+.b-link:hover {
+  color: #f00;
+}
+.b-link_carrot {
+  color: #ee7b00;
+}
+.b-link_big {
+  margin-left: 9px;
+  font-size: 16px;
+}
+.b-link_example {
+  color: #669;
+}
+.b-link__logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 340px;
+  background: url("../../img/logo_sprite.png") no-repeat;
+  background-position: 0 0;
+}
+.b-link__logo:hover {
+  background-position: 0 -33px;
+}
+.b-link_number {
+  color: #000;
+}
+
+.b-logo {
+  margin-right: 10px;
+}
+
+.b-map:hover .b-map__tools {
+  display: inline-block;
+}
+.b-map_position {
+  margin-left: 30px;
+}
+.b-map__image {
+  width: 198px;
+  height: 57px;
+}
+.b-map__tools {
+  display: none;
+  background: url("../../img/tools.svg");
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+.b-news {
+  overflow: hidden;
+  width: 500px;
+}
+.b-news__header {
+  height: 22px;
+  line-hight: 22px;
+}
+.b-news__item {
+  margin-bottom: 7px;
+}
+
+.b-page__line {
+  margin: 0 auto;
+  width: 1040px;
+}
+.b-page__line_bar {
+  width: 93%;
+  overflow: hidden;
+}
+
+.b-promotion {
+  width: 300px;
+}
+.b-promotion__item {
+  margin-left: 50px;
+  margin-bottom: 8px;
+}
+
+.b-route_position {
+  margin-left: 150px;
+}
+
+.b-search {
+  height: 70px;
+  width: 830px;
+  overflow: hidden;
+  background-color: #ffa500;
+}
+.b-search__input {
+  margin-right: 10px;
+  margin-left: 5px;
+  width: 700px;
+  height: 20px;
+  border: 1px solid #000;
+  padding: 7px;
+  font-size: 16px;
+  border-color: #808080;
+}
+.b-search__button {
+  width: 72px;
+  height: 36px;
+  border: 1px solid #808080;
+  background-color: #fff;
+  border-spacing: 2px;
+}
+
+.b-service__map {
+  margin-left: 30px;
+}
+.b-service__weather {
+  margin-left: 150px;
+}
+.b-service__route {
+  margin-left: 150px;
+}
+.b-service__tv {
+  margin-left: 150px;
+}
+
+
+.b-theme {
+  margin-right: 30px;
+}
+
+.b-tools {
+  margin-right: 30px;
+}
+.b-tools__link {
+  height: 50px;
+  line-height: 60px;
+}
+
+.b-tv {
+  overflow: hidden;
+}
+.b-tv_position {
+  margin-left: 150px;
+}
+
+.b-username {
+  margin-left: 15px;
+}
+.b-username__first-name {
+  color: #f00;
+}
+
+.b-weather_position {
+  margin-left: 150px;
+}
+.b-weather__img {
+  height: 30px;
+  widht: 30px;
+}
+
+.b-yandex {
+  margin-top: 20px;
+}
+.b-yandex__link {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  background-color: #fff;
+}
+.b-yandex__img {
+  margin-top: 8px;
+  margin-right: 10px;
+}
+.b-yandex__example {
+  height: 30px;
+  line-height: 30px;
+}
+.b-yandex__brouser {
+  margin-left: 340px;
+}

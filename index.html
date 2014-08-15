@@ -39,10 +39,18 @@
     </div>
   </div>
   <div class="b-page__line">
-    <div class="b-news b-float">
-      <div class="b-news__header b-news__header_active b-inline"><a href="#" class="b-link">Новости</a></div>
-      <div class="b-news__header b-inline"><a href="#" class="b-link">в Киеве</a></div>
-      <div class="b-inline"><a href="#" class="b-link b-link_carrot">Ситуация на Востоке</a></div>
+    <div class="b-news b-float b-inline">
+      <!-- <div class=" b-news b-news__header b-inline"> -->
+        <div class="b-header b-header_big b-header_border b-header__item b-inline">
+          <a href="#" class="b-link">Новости</a>
+        </div>
+        <div class="b-header b-header_meddium b-header_border_gray b-header__item b-inline">
+          <a href="#" class="b-link">в Киеве</a>
+        </div>
+      <!-- </div> -->
+      <div class="b-header b-header_smal b-header__item b-inline">
+        <a href="#" class="b-link b-link_carrot">Ситуация на Востоке</a>
+      </div>
       <div class="b-news__text">
         <ol class="b-news__list">
           <li class="b-news__item">
@@ -63,16 +71,16 @@
         </ol>
       </div>
     </div>
-    <div class="b-promotion">
-      <div class="b-promotion__img">
+    <div class="b-promotion b-inline">
+      <div class="b-promotion b-promotion__item">
         <a href="#">
           <img src="img/theme.png">
         </a>
       </div>
-      <div class="b-promotion__link">
+      <div class="b-promotion b-promotion__item b-header_middium">
         <a href="#" class="b-link">Украсьте браузер по настроению</a>
       </div>
-      <div class="b-promotion__text">с Элементами Яндекса</div>
+      <div class="b-promotion b-promotion__item">с Элементами Яндекса</div>
     </div>
   </div>
   <div class="b-page__line">
@@ -91,18 +99,20 @@
           <a href="#" class="b-link b-link_big b-inline">Видео</a>
           <a href="#" class="b-link b-link_big b-inline">Музыка</a>
           <a href="#" class="b-link b-link_big b-inline">Перевод</a>
-          <a href="#" class="b-link b-link_big b-inline">Еще</a>
+          <a href="#" class="b-link b-link_big b-inline">eще</a>
       </div>
         <input type="text" class="b-search__input b-float">
         <button class="b-search__button">Найти</button>
       </div>
       <div class="b-yandex__example">
-        Например, <a href="#" class="b-link_example b-inline">Lana Del Rey Summertime Sadness</a>
-        <a href="#" class="b-link__logo b-inline"></a>
-        <a href="#" class="b-link b-inline">Безопасный Яндекс.Браузер</a>
+        Например, <a href="#" class="b-link b-link_example b-inline">Lana Del Rey Summertime Sadness</a>
+        <!-- <a href="#" class="b-link b-link__logo b-inline"></a> -->
+        <a href="#" class="b-yandex__brouser b-link b-inline">Безопасный Яндекс.Браузер</a>
       </div>
       <div class="b-adv">
-        <a href="#"><img src="img/adv.jpeg"></a>
+        <a href="#" class="b-adv__link b-link">
+          <img src="img/adv.jpeg" class="b-adv__img">
+        </a>
       </div>
     </div>
   </div>
@@ -110,7 +120,7 @@
     <div class="b-service">
         <div class="b-map b-service__map b-inline">
           <div class="b-map__header">
-            <a href="#" class="b-inline b-inline_header b-link">КАРТА КИЕВА</a>
+            <a href="#" class="b-inline b-inline_header b-header b-header_big b-link">Карта Киева</a>
             <div class="b-map__tools"></div>
           </div>
           <div class="b-map__metro">
@@ -123,7 +133,7 @@
         </div>
         <div class="b-weather b-service__weather b-inline">
             <div class="b-weather__row">
-             <a href="#" class="b-inline b-inline_header b-link">ПОГОДА</a>
+             <a href="#" class="b-inline b-inline_header b-header b-header_big b-link">Погода</a>
              <a href="#" class="b-inline b-inline_header b-link">
                <img src="img/weather.svg" title="переменная облачность" class="b-weather__img">
               </a>
@@ -139,7 +149,7 @@
         </div>
         <div class="b-route b-service__route b-inline">
           <div class="b-route__row b-inline">
-            <a href="#" class="b-link b-inline b-inline_header">ПРОБКИ</a>
+            <a href="#" class="b-link b-inline b-inline_header b-header b-header_big">Пробки</a>
             <a href="#" class="b-link b-inline b-inline_header">
               <img src="img/light.svg">
             </a>
@@ -200,11 +210,33 @@
             </div>
           </div>
         </div>
-        <div class="b-valuta b-valuta_position b-inline">
+        <div class="b-service__valuta b-valuta b-inline">
           <table>
+            <tr class="b-table b-table__header">
+              <td></td>
+              <td>Покупка</td>
+              <td>Продажа</td>
+            </tr>
             <tr>
-              <td></td>
-              <td></td>
+              <td>
+                <a href="#" class="b-link">USD грн</a>
+              </td>
+              <td>12,78</td>
+              <td>13,38</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#" class="b-link">EUR грн</a>
+              </td>
+              <td>11,17</td>
+              <td>18,03</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#" class="b-link">RUB грн</a>
+              </td>
+              <td>3,48</td>
+              <td>3,73</td>
             </tr>
           </table>
         </div>
@@ -213,7 +245,23 @@
     </div>
   </div>
   <div class="b-page__line b-page__line_bar">
-
+    <div class="b-footer b-footer__desing b-inline">
+      Дизайн - <a href="#" class="b-link">Студия Артемия Лебедева</a>
+    </div>
+    <div class="b-footer__direct b-inline">
+      <a href="#" class="b-link">Директ</a> -
+      <a href="#" class="b-link b-link_number">разместить рекламу</a>
+      <a href="#" class="b-link b-inline">Справочник</a>
+      <a href="#" class="b-link b-inline">Метрика</a>
+      <a href="#" class="b-link b-inline">Реклама</a>
+    </div>
+    <div class="b-footer__about b-inline">
+      <a href="#" class="b-link b-inline">Вакансии</a>
+      <a href="#" class="b-link b-inline">Блог</a>
+      <a href="#" class="b-link b-inline">О компании</a>
+      <a href="#" class="b-link b-inline">About</a>
+    </div>
+    <div class="b-footer__copyrait b-inline">©&nbsp;Яндекс</div>
   </div>
 </body>
 </html>
