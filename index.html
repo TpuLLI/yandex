@@ -110,7 +110,7 @@
         <a href="#" class="b-yandex__brouser b-link b-inline">Безопасный Яндекс.Браузер</a>
       </div>
       <div class="b-adv">
-        <a href="#" class="b-adv__link b-link">
+        <a href="#" class="b-adv b-adv__link b-link">
           <img src="img/adv.jpeg" class="b-adv__img">
         </a>
       </div>
@@ -118,36 +118,38 @@
   </div>
   <div class="b-page__line">
     <div class="b-service">
-        <div class="b-map b-service__map b-inline">
+        <div class="b-service__map b-map b-inline">
           <div class="b-map__header">
             <a href="#" class="b-inline b-inline_header b-header b-header_big b-link">Карта Киева</a>
             <div class="b-map__tools"></div>
           </div>
           <div class="b-map__metro">
             <img src="img/map.webp" class="b-map__image">
-<!--             <div class="b-map__icon1 b-icon b-icon_medium b-icon_metro"></div>
-            <div class="b-map__icon2"></div>
-            <div class="b-map__icon3"></div>
-            <div class="b-map__icon4"></div> -->
-          </div>
+            <div class="b-map__icon">
+              <a href="#" class="b-map__icon1 b-icon b-icon_medium b-icon_map b-icon_metro" title="Схема метро"></a>
+              <a href="#" class="b-map__icon2 b-icon b-icon_medium b-icon_map b-icon_panorams" title="Панорамы"></a>
+              <a href="#" class="b-map__icon3 b-icon b-icon_medium b-icon_map b-icon_routes" title="Маршруты"></a>
+              <a href="#" class="b-map__icon4 b-icon b-icon_medium b-icon_map b-icon_train" title="Расписания"></a>
+            </div>
+        </div>
         </div>
         <div class="b-weather b-service__weather b-inline">
-            <div class="b-weather__row">
-             <a href="#" class="b-inline b-inline_header b-header b-header_big b-link">Погода</a>
-             <a href="#" class="b-inline b-inline_header b-link">
-               <img src="img/weather.svg" title="переменная облачность" class="b-weather__img">
-              </a>
-             <a href="#" class="b-inline b-inline_header b-link b-link_number">+27 °C</a>
-          </div>
           <div class="b-weather__row">
+            <a href="#" class="b-inline b-inline_header b-header b-header_big b-link">Погода</a>
+            <a href="#" class="b-inline b-inline_header b-link">
+              <img src="img/weather.svg" title="переменная облачность" class="b-weather__img">
+            </a>
+            <a href="#" class="b-inline b-inline_header b-link b-link_number">+27 °C</a>
+          </div>
+          <div class="b-weather b-weather__row">
             <a href="#" class="b-link b-link_number">вечером +25</a>,
             <a href="#" class="b-link b-link_number">ночью +21</a>
           </div>
-          <div class="b-weather__row">
+          <div class="b-weather b-weather__row">
             <a href="#" class="b-link b-link_carrot">завтра резкое потепление</a>
           </div>
         </div>
-        <div class="b-route b-service__route b-inline">
+        <div class="b-service__route b-route b-inline">
           <div class="b-route__row b-inline">
             <a href="#" class="b-link b-inline b-inline_header b-header b-header_big">Пробки</a>
             <a href="#" class="b-link b-inline b-inline_header">
@@ -157,93 +159,120 @@
           </div>
           <div class="b-route__row">
             <a href="#" class="b-link">На дорогах свободно</a>
+          </div>
+          <div class="b-route__row">
             <p>До 22 ч. дороги свободны</p>
           </div>
         </div>
-      <div class="b-service__media">
-        <div class="b-widget b-inline">
-          <div class="b-widget_item">
-            <a href="#" class="b-link">Яндекс.Браузер</a> -
-            <a href="#" class="b-link b-link_number">установить программу</a>
-          </div>
-          <div class="b-widget_item">
-            <a href="#" class="b-link">Маркет</a> -
-            <a href="#" class="b-link b-link_number">новые смартфоны</a>
-          </div>
-          <div class="b-widget_item">
-            <a href="#" class="b-link">Авто</a> -
-            <a href="#" class="b-link b-link_number">дизели до 40 тыс.</a>
-          </div>
-          <div class="b-widget_item">
-            <a href="#" class="b-link">Работа</a> -
-            <a href="#" class="b-link b-link_number">свежие вакансии</a>
-          </div>
-          <div class="b-widget_item">
-            <a href="#" class="b-link">Недвижимость</a> -
-            <a href="#" class="b-link b-link_number">свежие предложения</a>
-          </div>
-          <div class="b-yandex b-yandex_small">
-            <a href="#" class="b-link b-link_big b-inline">Деньги</a>
-            <a href="#" class="b-link b-link_big b-inline">Фотки</a>
-            <a href="#" class="b-link b-link_big b-inline">Игры</a>
-            <a href="#" class="b-link b-link_big b-inline">Диск</a>
-            <a href="#" class="b-link b-link_big b-inline">Спорт</a>
-          </div>
-          </div>
-          <div class="b-service__tv b-tv b-inline">
-            <div class="b-news__header b-news__header_active b-float">
-              <a href="#" class="b-link">Телепрограмма</a>
-              <a href="#" class="b-link">Афиша</a>
-              <div class="b-tv__item">
-                <div class="b-tv_item">
-                  14:55 <a href="#" class="b-link">Судебные дела</a>
-                  <a href="#" class="b-link b-link_number">Интер</a>
+      </div>
+      <div class="b-service">
+        <div class="b-service b-service__media">
+          <div class="b-widget b-inline">
+            <div class="b-widget__item">
+              <a href="#" class="b-link">Яндекс.Браузер
+                 <span class="b-inline b-linkb b-icom b-icon_small b-icon_widget b-icon_logo"></span>
+              </a> -
+              <a href="#" class="b-link b-link_number">установить программу</a>
+            </div>
+            <div class="b-widget__item">
+              <a href="#" class="b-link">Маркет
+                <span class="b-inline b-linkb b-icom b-icon_small b-icon_widget b-icon_market"></span>
+              </a> -
+              <a href="#" class="b-link b-link_number">новые смартфоны</a>
+            </div>
+            <div class="b-widget__item">
+              <a href="#" class="b-link">Авто
+                <span class="b-inline b-linkb b-icom b-icon_small b-icon_widget b-icon_avto"></span>
+              </a> -
+              <a href="#" class="b-link b-link_number">дизели до 40 тыс.</a>
+            </div>
+            <div class="b-widget__item">
+              <a href="#" class="b-link">Работа
+                <span class="b-inline b-linkb b-icom b-icon_small b-icon_widget b-icon_job"></span>
+              </a> -
+              <a href="#" class="b-link b-link_number">свежие вакансии</a>
+            </div>
+            <div class="b-widget__item">
+              <a href="#" class="b-link">Недвижимость
+                <span class="b-inline b-linkb b-icom b-icon_small b-icon_widget b-icon_house"></span>
+              </a> -
+              <a href="#" class="b-link b-link_number">свежие предложения</a>
+            </div>
+            <div class="b-service">
+              <div class="b-servise b-service__item b-inline">
+                <a href="#" class="b-link">Деньги</a>
               </div>
-              <div class="b-tv_item">
-                15:00 <a href="#" class="b-link">Все буде смачно!</a>
-                <a href="#" class="b-link b-link_number">СТБ</a>
+              <div class="b-servise b-service__item  b-inline">
+                <a href="#" class="b-link">Фотки</a>
               </div>
-              <div class="b-tv_item">
-                16:40 <a href="#" class="b-link">След</a>
-                <a href="#" class="b-link b-link_number">Украина</a>
+              <div class="b-servise b-service__item  b-inline">
+                <a href="#" class="b-link">Игры</a>
+              </div>
+              <div class="b-servise b-service__item  b-inline">
+                <a href="#" class="b-link">Диск</a>
+              </div>
+              <div class="b-servise b-service__item  b-inline">
+                <a href="#" class="b-link">Спорт</a>
               </div>
             </div>
+            </div>
+            <div class="b-service__tv b-tv b-inline b-inline_top">
+              <div class="b-tv__header b-header b-header_big b-header_border b-inline">
+                <a href="#" class="b-link">Телепрограмма</a>
+              </div>
+              <div class="b-header b-header_meddium b-header_border_gray b-inline">
+                <a href="#" class="b-link">Афиша</a>
+              </div>
+                <div class="b-tv b-tv__list b-inlne">
+                  <div class="b-tv b-tv__item">
+                    14:55 <a href="#" class="b-link">Судебные дела</a>
+                    <a href="#" class="b-link b-link_number">Интер</a>
+                  </div>
+                  <div class="b-tv b-tv__item">
+                    15:00 <a href="#" class="b-link">Все буде смачно!</a>
+                    <a href="#" class="b-link b-link_number">СТБ</a>
+                  </div>
+                  <div class="b-tv b-tv__item">
+                    16:40 <a href="#" class="b-link">След</a>
+                    <a href="#" class="b-link b-link_number">Украина</a>
+                  </div>
+                </div>
+            </div>
+            <div class="b-service b-service__valuta b-valuta b-inline b-inline_top">
+              <table>
+                <tr class="b-table b-table__header">
+                  <td></td>
+                  <td>покупка</td>
+                  <td>продажа</td>
+                </tr>
+                <tr class="b-table__item">
+                  <td>
+                    <a href="#" class="b-link">USD грн</a>
+                  </td>
+                  <td>12,78</td>
+                  <td>13,38</td>
+                </tr>
+                <tr class="b-table__item">
+                  <td>
+                    <a href="#" class="b-link">EUR грн</a>
+                  </td>
+                  <td>11,17</td>
+                  <td>18,03</td>
+                </tr>
+                <tr class="b-table__item">
+                  <td>
+                    <a href="#" class="b-link">RUB грн</a>
+                  </td>
+                  <td>3,48</td>
+                  <td>3,73</td>
+                </tr>
+              </table>
+            </div>
+            </div>
           </div>
-        </div>
-        <div class="b-service__valuta b-valuta b-inline">
-          <table>
-            <tr class="b-table b-table__header">
-              <td></td>
-              <td>Покупка</td>
-              <td>Продажа</td>
-            </tr>
-            <tr>
-              <td>
-                <a href="#" class="b-link">USD грн</a>
-              </td>
-              <td>12,78</td>
-              <td>13,38</td>
-            </tr>
-            <tr>
-              <td>
-                <a href="#" class="b-link">EUR грн</a>
-              </td>
-              <td>11,17</td>
-              <td>18,03</td>
-            </tr>
-            <tr>
-              <td>
-                <a href="#" class="b-link">RUB грн</a>
-              </td>
-              <td>3,48</td>
-              <td>3,73</td>
-            </tr>
-          </table>
-        </div>
-        </div>
+       </div>
       </div>
     </div>
-  </div>
   <div class="b-page__line b-page__line_bar">
     <div class="b-footer b-footer__desing b-inline">
       Дизайн - <a href="#" class="b-link">Студия Артемия Лебедева</a>
