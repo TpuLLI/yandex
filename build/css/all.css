@@ -16,6 +16,9 @@
   background: #fff center no-repeat;
   box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2);
 }
+.avatar_header {
+  float: right;
+}
 
 .float {
   float: left;
@@ -139,6 +142,9 @@
 .language {
   margin-right: 30px;
 }
+.language_header {
+  float: right;
+}
 
 .line-height {
   height: 50px;
@@ -178,6 +184,9 @@
 
 .logo {
   margin-right: 10px;
+}
+.logo_header {
+  float: left;
 }
 
 .map:hover .map__tools {
@@ -282,6 +291,10 @@
   margin-left: 92px;
 }
 
+.start-page_header {
+  float: left;
+}
+
 .table__header {
   padding-bottom: 5px;
 }
@@ -298,6 +311,9 @@
 .theme {
   margin-right: 30px;
 }
+.theme_header {
+  float: right;
+}
 
 .tools {
   margin-right: 25px;
@@ -313,6 +329,9 @@
 .tools__img:hover {
   border: 1px solid #000;
   border-radius: 10%;
+}
+.tools_header {
+  float: right;
 }
 
 .tv__header {
@@ -334,6 +353,9 @@
 }
 .username_font {
   font: 15px Arial, Helvetica, sans-serif;
+}
+.username_header {
+  float: right;
 }
 
 .weather:first-child {
