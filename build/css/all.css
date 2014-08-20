@@ -1,247 +1,246 @@
-.b-adv {
+.adv {
   width: 800px;
   margin-left: 25px;
 }
-.b-adv__link {
+.adv__link {
   width: 750px;
   height: 95px;
 }
-.b-adv__img {
+.adv__img {
   margin-bottom: 15px;
 }
 
-
-.b-avatar__img {
+.avatar__img {
   margin-top: 3px;
   border-radius: 50%;
   background: #fff center no-repeat;
   box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2);
 }
 
-.b-float {
+.float {
   float: left;
 }
-.b-float_right {
+.float_right {
   float: right;
 }
 
-.b-footer__desing {
+.footer__desing {
   margin-bottom: 20px;
   margin-right: 90px;
 }
-.b-footer__about {
+.footer__about {
   margin-left: 100px;
 }
-.b-footer__item {
+.footer__item {
   vertical-align: middle;
   margin-left: 6px;
 }
-.b-footer__copyrait {
+.footer__copyrait {
   margin-left: 5px;
 }
 
-.b-header_smal {
+.header_smal {
   font-size: 12px;
 }
-.b-header_meddium {
+.header_meddium {
   font-size: 16px;
 }
-.b-header_big {
+.header_big {
   font-size: 19px;
 }
-.b-header_border {
+.header_border {
   border-top: 3px solid #0d44a0;
 }
-.b-header__item {
+.header__item {
   margin-left: 15px;
   margin-bottom: 10px;
 }
 
-.b-icon_medium {
+.icon_medium {
   width: 33px;
   height: 33px;
 }
-.b-icon_small {
+.icon_small {
   width: 19px;
   height: 19px;
 }
-.b-icon_metro {
+.icon_metro {
   position: absolute;
   top: 10px;
   left: 9px;
   background: url("../../img/metro.svg") 0 0 no-repeat;
 }
-.b-icon_panorams {
+.icon_panorams {
   position: absolute;
   top: 10px;
   left: 54px;
   background: url("../../img/panorams.svg") 0 0 no-repeat;
 }
-.b-icon_routes {
+.icon_routes {
   position: absolute;
   top: 10px;
   left: 97px;
   background: url("../../img/routes.svg") 0 0 no-repeat;
 }
-.b-icon_train {
+.icon_train {
   position: absolute;
   top: 10px;
   left: 142px;
   background: url("../../img/train.svg") 0 0 no-repeat;
 }
-.b-icon_map {
+.icon_map {
   background-color: #fff;
   border: 3px solid #fff;
   border-radius: 20px;
   box-shadow: 0 2px rgba(92,131,190,0.16);
 }
-.b-icon_logo {
+.icon_logo {
   background: url("../../img/logo_mini.svg") 0 0 no-repeat;
 }
-.b-icon_market {
+.icon_market {
   background: url("../../img/market.svg") 0 0 no-repeat;
 }
-.b-icon_avto {
+.icon_avto {
   background: url("../../img/avto.svg") 0 0 no-repeat;
 }
-.b-icon_job {
+.icon_job {
   background: url("../../img/job.svg") 0 0 no-repeat;
 }
-.b-icon_house {
+.icon_house {
   background: url("../../img/house.svg") 0 0 no-repeat;
 }
-.b-icon_widget {
+.icon_widget {
   position: absolute;
   left: -30px;
   top: -2px;
   margin-left: 7px;
 }
-.b-icon_contact {
+.icon_contact {
   background: url("../../img/contact.svg") 0 0 no-repeat;
 }
-.b-icon_help {
+.icon_help {
   background: url("../../img/help.svg") 0 0 no-repeat;
 }
 
-.b-inline {
+.inline {
   display: inline-block;
 }
-.b-inline_header {
+.inline_header {
   vertical-align: middle;
   line-height: 25px;
 }
-.b-inline_top {
+.inline_top {
   vertical-align: top;
 }
-.b-inline_middle {
+.inline_middle {
   vertical-align: middle;
 }
 
-.b-language {
+.language {
   margin-right: 30px;
 }
 
-.b-line-height {
+.line-height {
   height: 50px;
   line-height: 50px;
 }
 
-.b-link {
+.link {
   text-decoration: none;
   color: #0d44a0;
 }
-.b-link:hover {
+.link:hover {
   color: #f00;
 }
-.b-link_carrot {
+.link_carrot {
   color: #ee7b00;
 }
-.b-link_big {
+.link_big {
   margin-left: 9px;
   font-size: 16px;
 }
-.b-link_example {
+.link_example {
   color: #669;
 }
-.b-link__logo {
+.link__logo {
   height: 30px;
   width: 30px;
   margin-left: 340px;
   background: url("../../img/logo_sprite.png") no-repeat;
   background-position: 0 0;
 }
-.b-link__logo:hover {
+.link__logo:hover {
   background-position: 0 -33px;
 }
-.b-link_number {
+.link_number {
   color: #000;
 }
 
-.b-logo {
+.logo {
   margin-right: 10px;
 }
 
-.b-map:hover .b-map__tools {
+.map:hover .map__tools {
   display: inline-block;
 }
-.b-map_position {
+.map_position {
   margin-left: 30px;
 }
-.b-map__image {
+.map__image {
   width: 198px;
   height: 57px;
 }
-.b-map__tools {
+.map__tools {
   display: none;
   background: url("../../img/tools.svg");
   width: 15px;
   height: 15px;
   vertical-align: middle;
 }
-.b-map__metro {
+.map__metro {
   position: relative;
 }
-.b-map__header {
+.map__header {
   margin-left: 10px;
   margin-bottom: 3px;
 }
 
-.b-news__header {
+.news__header {
   height: 22px;
   line-hight: 22px;
 }
-.b-news__item {
+.news__item {
   margin-bottom: 7px;
 }
 
-.b-page__line {
+.page__line {
   margin: 0 auto;
   width: 1040px;
 }
-.b-page__line_bar {
+.page__line_bar {
   width: 93%;
   overflow: hidden;
 }
 
-.b-promotion {
+.promotion {
   width: 300px;
 }
-.b-promotion__item {
+.promotion__item {
   margin-left: 50px;
   margin-bottom: 8px;
 }
 
-.b-route__row {
+.route__row {
   padding-bottom: 7px;
 }
 
-.b-search {
+.search {
   height: 70px;
   width: 830px;
   overflow: hidden;
   background-color: #ffa500;
 }
-.b-search__input {
+.search__input {
   margin-right: 10px;
   margin-left: 5px;
   width: 700px;
@@ -251,7 +250,7 @@
   font-size: 16px;
   border-color: #808080;
 }
-.b-search__button {
+.search__button {
   width: 72px;
   height: 36px;
   border: 1px solid #808080;
@@ -259,121 +258,119 @@
   border-spacing: 2px;
 }
 
-.b-service__map {
+.service__map {
   margin-left: 30px;
 }
-.b-service__weather {
+.service__weather {
   margin-left: 150px;
 }
-.b-service__route {
+.service__route {
   margin-left: 150px;
 }
-.b-service__tv {
+.service__tv {
   margin-left: 85px;
   margin-bottom: 20px;
 }
-.b-service__media {
+.service__media {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.b-service__item {
+.service__item {
   margin-right: 10px;
 }
-.b-service__valuta {
+.service__valuta {
   margin-left: 92px;
 }
 
-
-.b-table__header {
+.table__header {
   padding-bottom: 5px;
 }
-.b-table_str {
+.table_str {
   padding-right: 30px;
 }
-.b-table_td {
+.table_td {
   padding: 3px;
 }
-.b-table_val {
+.table_val {
   padding-right: 10px;
 }
 
-.b-theme {
+.theme {
   margin-right: 30px;
 }
 
-.b-tools {
+.tools {
   margin-right: 25px;
 }
-.b-tools__img {
+.tools__img {
   margin-top: 7px;
   padding: 6px;
   opacity: 0.3;
 }
-.b-tools__img_border {
+.tools__img_border {
   padding: 7px;
 }
-.b-tools__img:hover {
+.tools__img:hover {
   border: 1px solid #000;
   border-radius: 10%;
 }
 
-.b-tv__header {
+.tv__header {
   margin-right: 10px;
   margin-left: 7px;
 }
-.b-tv__list {
+.tv__list {
   margin-top: 7px;
 }
-.b-tv__item {
+.tv__item {
   margin-bottom: 5px;
 }
 
-.b-username {
+.username {
   margin-left: 15px;
 }
-.b-username__first-name {
+.username__first-name {
   color: #f00;
 }
-.b-username_font {
+.username_font {
   font: 15px Arial, Helvetica, sans-serif;
 }
 
-
-.b-weather:first-child {
+.weather:first-child {
   padding-bottom: 0;
 }
-.b-weather__img {
+.weather__img {
   height: 30px;
   widht: 30px;
 }
-.b-weather__row {
+.weather__row {
   padding-bottom: 7px;
 }
 
-.b-widget {
+.widget {
   margin-left: 45px;
 }
-.b-widget__item {
+.widget__item {
   position: relative;
   padding-bottom: 7px;
 }
-.b-widget__info {
+.widget__info {
   margin-left: 3px;
 }
 
-.b-yandex {
+.yandex {
   margin-top: 20px;
 }
-.b-yandex__link {
+.yandex__link {
   margin-bottom: 5px;
   padding-bottom: 5px;
   background-color: #fff;
 }
-.b-yandex__img {
+.yandex__img {
   margin-top: 8px;
   margin-right: 10px;
 }
-.b-yandex__example {
+.yandex__example {
   overflow: hidden;
   height: 30px;
 }
