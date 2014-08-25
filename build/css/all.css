@@ -275,6 +275,16 @@ body,
 }
 
 
+.ad__bar {
+  margin: 3px 0 13px 70px;
+}
+.ad__bar_static {
+  font-size: 22px;
+  margin-left: 73px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
 .adv {
   width: 800px;
 }
@@ -338,6 +348,12 @@ body,
 .header__item {
   margin-left: 15px;
   margin-bottom: 10px;
+}
+.header__logo {
+  padding-top: 23px;
+}
+.header__ad {
+  vertical-align: top;
 }
 
 .icon_big {
@@ -445,6 +461,9 @@ body,
 .link_big {
   font-size: 16px;
 }
+.link_normal {
+  font-size: 13px;
+}
 .link_example {
   color: #669;
 }
@@ -458,6 +477,12 @@ body,
 .link_number {
   color: #000;
 }
+.link_decoration {
+  text-decoration: underline;
+}
+.link_dash {
+  border-bottom: 1px dotted #000080;
+}
 
 .mainlinks__list {
   margin-bottom: 5px;
@@ -466,6 +491,9 @@ body,
 }
 .mainlinks__link {
   margin-left: 9px;
+}
+.mainlinks__ad {
+  vertical-align: top;
 }
 
 .map:hover .map__tools {
@@ -559,6 +587,10 @@ body,
   width: 1040px;
 }
 .page__line_bar {
+  width: 93%;
+}
+.page_header {
+  margin: 0 auto;
   width: 93%;
 }
 
