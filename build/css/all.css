@@ -35,6 +35,13 @@
   float: right;
 }
 
+.content__news {
+  margin-left: -23px;
+  background-color: #dbe1f1;
+  width: 17%;
+  padding-left: 9px;
+}
+
 .footer__design {
   margin-bottom: 20px;
   margin-right: 90px;
@@ -76,6 +83,9 @@
 }
 .header_big {
   font-size: 19px;
+}
+.header_extra {
+  font-size: 22px;
 }
 .header_border {
   border-top: 3px solid #0d44a0;
@@ -285,6 +295,19 @@
 .news__item {
   margin-bottom: 7px;
 }
+.news__item_for-blue {
+  padding-bottom: 12px;
+}
+.news_font {
+  font-family: Arial, Geneva CY, Sans-Serif;
+  font-weight: bold;
+}
+.news__text_for-blue {
+  padding: 20px 0;
+}
+.news_adv {
+  padding-bottom: 5px;
+}
 
 .nickname__avatar {
   margin-top: 3px;
@@ -329,6 +352,9 @@
 }
 .page__line_bar {
   width: 93%;
+}
+.page__line_content {
+  width: 100%;
 }
 .page_header {
   margin: 0 auto;
