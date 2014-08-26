@@ -19,6 +19,10 @@
   margin-bottom: 15px;
 }
 
+.agency_simple {
+  margin-top: 10px;
+}
+
 .auth__nickname {
   font-weight: bold;
   margin-right: 150px;
@@ -35,11 +39,29 @@
   float: right;
 }
 
+.contact_telephone {
+  font-size: 16px;
+  font-weight: bold;
+}
+.contact__agency {
+  margin-top: 30px;
+}
+
 .content__news {
   margin-left: -23px;
   background-color: #dbe1f1;
   width: 17%;
   padding-left: 9px;
+}
+.content__contact {
+  width: 27%;
+  margin-top: 25px;
+  float: right;
+}
+.content__promo {
+  width: 50%;
+  padding-left: 25px;
+  vertical-align: top;
 }
 
 .footer__design {
@@ -86,6 +108,9 @@
 }
 .header_extra {
   font-size: 22px;
+}
+.header_extra-big {
+  font-size: 24px;
 }
 .header_border {
   border-top: 3px solid #0d44a0;
@@ -360,6 +385,13 @@
   margin: 0 auto;
   width: 93%;
   margin-top: 3px;
+}
+
+.promo__sentence {
+  padding: 10px 0;
+}
+.promo__header {
+  padding: 20px 0 5px 0;
 }
 
 .promotion {
@@ -767,6 +799,9 @@ hr {
   outline: none;
   height: 0;
   margin: 0;
+}
+b {
+  font-weight: bold;
 }
 
 body {
